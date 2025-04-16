@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry Smith - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+</head>
+<body>
+    <header id="home">
+        <h1>Jerry Smith</h1>
+        <p>Pursuing a Bachelor of Science in Actuarial Science</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="line"></div>
+        <div class="about-content">
+            <p><strong>Schools Attended:</strong><br>
+               Little London Primary<br>
+               Munro College<br>
+               The University of the West Indies</p>
+            
+            <p><strong>Where I Grew Up:</strong><br>
+                Little London, Westmoreland</p>
+            
+            <p><strong>Goals After Graduation:</strong><br>
+                To become an Actuary working in Investment Banking or Pension</p>
+        </div>
+    </section>
+
+    <section id="websites">
+        <h2>Favorite Websites</h2>
+        <div class="line"></div>
+        <p>Websites with Useful Information:</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <a href="https://www.coachingactuaries.com/" target="_blank">Coaching Actuaries</a>
+                <p>Worldwide community of Actuaries and professional opportunities</p>
+            </div>
+            <div class="grid-item">
+                <a href="https://www.beanactuary.org/" target="_blank">Be an Actuary</a>
+                <p>Tools and guides for Actuarial students</p>
+            </div>
+            <div class="grid-item">
+                <a href="https://www.soa.org/" target="_blank">Society of Actuaries</a>
+                <p>Global Actuarial network and career prospects</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="books">
+        <h2>Favorite Books</h2>
+        <div class="line"></div>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+            </tr>
+            <tr>
+                <td>Vantage Point Jamaica</td>
+                <td>Earl Moxam</td>
+            </tr>
+            <tr>
+                <td>The Last Lecture</td>
+                <td>Randy Pausch</td>
+            </tr>
+            <tr>
+                <td>The Young Warrior
+                <td>Book by Victor Stafford Reid</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="image">
+        <h2>University Image</h2>
+        <div class="line"></div>
+        <img src="https://our.today/wp-content/uploads/2025/01/uwi-sign-our-today-feature-1536x1024.jpg" alt="The University of West Indies Campus">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="line"></div>
+        <form>
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </p>
+            
+            <p>
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Write your feedback here..."></textarea>
+            </p>
+            
+            <p>Rate this website:<br>
+                <input type="radio" id="excellent" name="rating" value="Excellent">
+                <label for="excellent">Excellent</label><br>
+                <input type="radio" id="great" name="rating" value="Great">
+                <label for="great">Great</label><br>
+                <input type="radio" id="good" name="rating" value="Good">
+                <label for="good">Good</label>
+            </p>
+            
+            <p> Contact Method:<br>
+                <input type="radio" id="email_contact" name="contact" value="Email">
+                <label for="email_contact">Email</label><br>
+                <input type="radio" id="phone_contact" name="contact" value="Phone">
+                <label for="phone_contact">Phone</label>
+            </p>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
